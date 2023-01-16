@@ -1,6 +1,7 @@
 import 'package:bionic/uis/base_navigation/bottom_menus/dokument_page.dart';
 import 'package:bionic/uis/base_navigation/bottom_menus/gallery_page.dart';
 import 'package:bionic/uis/base_navigation/bottom_menus/map_page.dart';
+import 'package:bionic/uis/base_navigation/bottom_menus/notif_page.dart';
 import 'package:bionic/uis/base_navigation/bottom_menus/search_page/search_page.dart';
 import 'package:bionic/ui_logics/nav_item.dart';
 import 'package:bionic/business_logics/location_tracker_controller.dart';
@@ -31,9 +32,7 @@ class NavigasiController extends GetxController
     const NavItem(
       Icons.text_snippet_outlined,
       "Notif",
-      SearchPage(
-        label: "Audio",
-      ),
+      NotifPage(),
     ),
   ];
   GlobalKey<ExpandableBottomSheetState> key = GlobalKey();
