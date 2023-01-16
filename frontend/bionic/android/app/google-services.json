@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "239134322174",
+    "project_id": "bionic-d340e",
+    "storage_bucket": "bionic-d340e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239134322174:android:930acb843b4f63af5ce4af",
+        "android_client_info": {
+          "package_name": "com.example.bionic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239134322174-4hui3g5ebdt8177nd82147mlj0tbgv79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrS-QXWFp15yyZJhzqyoKhyu6ZssZ59Ds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239134322174-4hui3g5ebdt8177nd82147mlj0tbgv79.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "239134322174-9i0qfc7vscmgaubsmtv5gp3nn9ejgotm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bionic"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
